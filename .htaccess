@@ -1,0 +1,17 @@
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI}  .+(gif|png|jpg|ico)$
+RewriteRule .* - [L]
+
+RewriteCond %{REQUEST_URI}  .+(css|png)$
+RewriteRule .* - [L]
+
+RewriteCond %{REQUEST_URI}  .+(js|htm|html)$
+RewriteRule .* - [L]
+
+RewriteCond %{REQUEST_URI}  .+(txt)$
+RewriteRule .* - [L]
+
+RewriteRule . index.php [L]
+
