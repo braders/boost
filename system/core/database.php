@@ -13,9 +13,9 @@
 		public $stmt;
 		
 		private $dbhost = "localhost";
-		private $dbname = "v22comp_vinyl";
-		private $dbuser = "v22comp_vinyl";
-		private $dbpass = "Z0ZZ58CO~KD~";
+		private $dbname = "Your Database";
+		private $dbuser = "Your User";
+		private $dbpass = "Your Password";
 
 		function __construct(){
 			$this->connect();
